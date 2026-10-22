@@ -1,0 +1,26 @@
+{
+  "best_model": "logistic_regression",
+  "models": {
+    "logistic_regression": {
+      "roc_auc": 0.8000358139054375,
+      "pr_auc": 0.47169670777524403,
+      "threshold": 0.5,
+      "cv_roc_auc_mean": 0.7978683604955501,
+      "cv_pr_auc_mean": 0.45494630207780357
+    },
+    "random_forest": {
+      "roc_auc": 0.7707427941733531,
+      "pr_auc": 0.36380264414236463,
+      "threshold": 0.5,
+      "cv_roc_auc_mean": 0.7683389650384442,
+      "cv_pr_auc_mean": 0.3926965818565006
+    },
+    "hist_gradient_boosting": {
+      "roc_auc": 0.7728599469678709,
+      "pr_auc": 0.39612473374127566,
+      "threshold": 0.5,
+      "cv_roc_auc_mean": 0.7584047696698744,
+      "cv_pr_auc_mean": 0.40238286963145997
+    }
+  }
+}
